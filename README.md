@@ -37,6 +37,7 @@ git clone https://github.com/yourusername/Optimization-mobile-app.git
 
 ## Project Structure
 
+```
 app/
 ├── build.gradle.kts           # Project dependencies and configuration
 ├── src/
@@ -48,6 +49,7 @@ app/
 │       │       └── Optimization.kt        # Optimization algorithms (unused now)
 │       └── res/                          # Resource files
 └── AndroidManifest.xml        # App configuration
+```
 
 ## Usage
 
