@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/functionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter function f(x, y)"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/VarInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter variables"
+        android:layout_marginTop="40dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/LRInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter learning rate"
+        android:layout_marginTop="80dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/IterInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter iterations number"
+        android:layout_marginTop="120dp"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/optimizeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optimize"
+        android:layout_below="@id/functionInput"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/zeroPoints"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/optimizeButton"
+        android:layout_marginTop="0dp"
+        android:padding="16dp"
+        android:text="Zeros: "
+        android:textSize="16sp" />
+
+    <com.github.mikephil.charting.charts.LineChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/zeroPoints"
+        android:layout_marginTop="0dp" />
+</RelativeLayout>
