@@ -1,5 +1,9 @@
 # Optimization Mobile App
 
+[![Kotlin](https://img.shields.io/badge/Kotlin-%237F52FF.svg?logo=kotlin&logoColor=white)](#)
+![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=white)
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+
 A mobile application for mathematical function optimization using gradient descent method. The app allows users to input custom functions and visualize the optimization process through an interactive chart.
 
 ## Features
